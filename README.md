@@ -33,10 +33,27 @@ Save it in ./examples.
 
 ## Examples
 
-This repo includes completed debates you can use as references:
+Below are completed debates plus screenshots of typical agent conversations when using this skill.
 
-- [`examples/six-hats-career-advice.md`](examples/six-hats-career-advice.md) debates a career decision about staying in frontend tooling versus moving to an AI company.
-- [`examples/six-hats-react-2026.md`](examples/six-hats-react-2026.md) debates React's role and tradeoffs in 2026.
+### Career decision — frontend tooling vs. AI companies
+
+Pressure-tests staying in frontend tooling versus moving toward an AI company: tradeoffs, risks, and synthesis.
+
+**Summary:** A principal frontend engineer debates staying deep in Sass and CSS tooling versus joining the AI boom. White and Yellow underline strong demand for senior UI talent and upside in AI interfaces; Black warns about hype, startup churn, narrower “dashboard + chat” work, and interview pressure to prove AI literacy. Green breaks the binary (AI + frontend infra vendors, internal AI projects, positioning at the intersection). Red names fatigue with the old lane versus fear of chasing shiny objects. Across three rounds, Blue Hat lands on phased optionality—not an immediate pivot: ship a small AI-powered UI experiment to see how it feels, run a few exploratory interviews for real compensation and role data, talk openly with your current employer about AI-adjacent growth, then judge any offer on team, product, and day-to-day frontend work rather than the “AI company” label alone.
+
+[![Conversation excerpt: career advice six hats session](examples/six-hats-career-advice.png)](examples/six-hats-career-advice.md)
+
+**Full markdown debate:** [`examples/six-hats-career-advice.md`](examples/six-hats-career-advice.md)
+
+### Technology direction — React in 2026
+
+Explores React’s role, ecosystem tradeoffs, and strategic framing for frontend work in 2026.
+
+**Summary:** The debate weighs React’s institutional advantages—talent pool, npm ecosystem, React 19, compiler maturity, RSC-driven bundle wins in content-heavy apps—against shared unease: a harder mental model, Next.js/Vercel coupling and roadmap risk, perceived migration churn, and how much benchmark gaps vs. fine-grained frameworks translate to users. Green repeatedly widens the frame (Rust compile-to-native options, server-first/live views, AI-written UI changing cost and mental models). Blue Hat’s recommendation is defensive maturity: React is still a reasonable default for many teams, but treat the stack as leverage you manage, not dogma—keep server/client boundaries explicit, avoid unnecessary vendor lock-in, instrument real performance, and stay mobile enough that ecosystem shifts do not trap you.
+
+[![Conversation excerpt: React 2026 six hats session](examples/six-hats-react-2026.png)](examples/six-hats-react-2026.md)
+
+**Full markdown debate:** [`examples/six-hats-react-2026.md`](examples/six-hats-react-2026.md)
 
 ## Installation
 
